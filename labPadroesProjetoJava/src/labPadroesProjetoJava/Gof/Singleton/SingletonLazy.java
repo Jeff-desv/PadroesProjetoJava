@@ -1,4 +1,4 @@
-package labPadroesProjetoJava.Gof;
+package labPadroesProjetoJava.Gof.Singleton;
 
 
 /**

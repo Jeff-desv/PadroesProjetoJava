@@ -1,5 +1,6 @@
 package labPadroesProjetoJava.Gof.Singleton;
 
+import labPadroesProjetoJava.Gof.Facade.Facade;
 import labPadroesProjetoJava.Gof.Strategy.ComportamentoAgressivo;
 import labPadroesProjetoJava.Gof.Strategy.ComportamentoDefensivo;
 import labPadroesProjetoJava.Gof.Strategy.ComportamentoNormal;
@@ -35,6 +36,12 @@ public class TesteSingleton {
 		robo.mover();
 		robo.setComportamento(agressivo);
 		robo.mover();
+		
+		System.out.println();
+		
+		//FACADE
+		Facade facade = new Facade();
+		facade.migrarCliente("Jeffson", "64235000");
 	}
 
 }
